@@ -1,0 +1,29 @@
+.table {
+	width: 100%;
+}
+
+.button {
+	border-radius: 12px;
+	width: 300px;
+	margin: 40px auto;
+	padding: 5px;
+	background-color: white;
+}
+
+.main {
+	width: 100%;
+	text-align: center;
+}
+
+.header {
+	height: 250px;
+}
+
+body {
+	background-color: #53b6ff;
+}
+
+h1 {
+	font-family:;
+	color: white;
+}
