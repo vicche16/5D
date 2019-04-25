@@ -1,0 +1,188 @@
+body {
+	margin: 0;
+	width: 100%;
+	height: 100%;
+}
+
+img {
+		
+}
+
+
+.left {
+    float: left;
+    width: 50%;
+    position: relative;
+}
+
+.heading{
+	position: absolute;
+	top:25%;
+	left: 1%;
+	font-size: 50px;
+}
+
+.des{
+	position: absolute;
+	top:35%;
+	left: 1%;
+	font-size: 22px;
+}
+
+.right {
+    position: absolute;
+    left: 50%;
+    height: 100%;
+    overflow: scroll;
+    
+}
+p{
+	font-size: 28px;
+	font-weight: bold;
+	display: inline;
+	cursor: pointer;
+	color: blue;
+}
+
+p:hover{
+	color: #ff8080;
+}
+
+.text{
+	color: #404040;
+	font-family: 'Itim', cursive;
+	padding: 5px 15px;
+}
+
+.text2{
+  position: absolute;
+  top: 75%;
+  font-size: 30px;
+  left: 40%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: rgb(255, 153, 255, 0.4);
+}
+.text3{
+ position: absolute;
+  top: 75%;
+  font-size: 30px;
+  left: 40%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: rgb(0, 204, 102, 0.4);
+}
+.text4{
+position: absolute;
+  top: 75%;
+  font-size: 27px;
+  left: 40%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: rgb(255, 255, 102, 0.4);
+
+}
+.text5{
+position: absolute;
+  top: 75%;
+  font-size: 30px;
+  left: 40%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: rgb(51, 204, 255, 0.4);
+}
+
+.p2 {
+	opacity: 1;
+}
+/*.p2:hover{
+	opacity: 0.5;
+}*/
+.p2:hover ~ .text2{
+	opacity: 1;
+}
+
+.text2:hover {
+	opacity: 1;
+}
+.text2:hover ~ .p2{
+	opacity: 0.5;
+}
+
+
+.p3 {
+	opacity: 1;
+}
+/*.p3:hover {
+	opacity: 0.5;
+
+}*/
+.p3:hover ~ .text3{
+	opacity: 1;
+}
+.text3:hover {
+	opacity: 1;
+}
+.text3:hover ~ .p3{
+	opacity: 0.5;
+}
+
+
+
+.p4 {
+	opacity: 1;
+}
+/*.p4:hover {
+	opacity: 0.5;
+}*/
+.p4:hover ~ .text4{
+	opacity: 1;
+}
+.text4:hover {
+	opacity: 1;
+}
+.text4:hover ~ .p4{
+	opacity: 0.5;
+}
+
+
+.p5 {
+	opacity: 1;
+}
+/*.p5:hover {
+	opacity: 0.5;
+}*/
+.p5:hover ~ .text5{
+	opacity: 1;
+}
+.text5:hover {
+	opacity: 1;
+}
+.text5:hover ~ .p5{
+	opacity: 0.5;
+}
+
+
+
+
+.container1{
+	height: 100%;
+	position: relative;
+}
+
+.container2{
+	height: 100%;
+position: relative;
+}
+
+.container3{
+	height: 100%;
+position: relative;
+}
+
+.container4{
+	height: 100%;
+position: relative;
+
+}
+
